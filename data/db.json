@@ -1,0 +1,148 @@
+{
+  "todo-user": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "todolist": [
+        {
+          "uuid": 1,
+          "title": "go to gym"
+        },
+        {
+          "uuid": 2,
+          "title": "sleep"
+        }
+      ],
+      "phone": "1-770-736-8031 x56442"
+    },
+    {
+      "name": "Ervin Howells",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv",
+      "phone": "010-692-6593 x09125",
+      "todolist": [
+        {
+          "uuid": 1,
+          "title": "play game"
+        },
+        {
+          "uuid": 2,
+          "title": "eat"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Bruce",
+      "username": "Batman",
+      "email": "darkknight@gmail.com",
+      "phone": "09987987997",
+      "todolist": [
+        {
+          "uuid": "1",
+          "title": "Catch Thief"
+        },
+        {
+          "uuid": "2",
+          "title": "Maintain Gotham"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Hell",
+      "username": "story teller",
+      "email": "test@gmail.com",
+      "phone": "097988798",
+      "todolist": [
+        {
+          "uuid": 1,
+          "title": "Go"
+        },
+        {
+          "uuid": 2,
+          "title": "Eat"
+        },
+        {
+          "uuid": 3,
+          "title": "Sleep"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "CCC",
+      "username": "cc",
+      "email": "as@gmail.com",
+      "phone": "09776976566",
+      "todolist": [
+        {
+          "uuid": 1,
+          "title": "a"
+        },
+        {
+          "uuid": 2,
+          "title": "b"
+        },
+        {
+          "uuid": 3,
+          "title": "c"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "tester",
+      "username": "tester",
+      "phone": "0-99394",
+      "email": "tester@gmail.com",
+      "todolist": [
+        {
+          "uuid": 1,
+          "title": "todo 1"
+        },
+        {
+          "uuid": 2,
+          "title": "todo2"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "tester",
+      "username": "tester",
+      "phone": "0-99394",
+      "email": "tester@gmail.com",
+      "todolist": [
+        {
+          "uuid": 1,
+          "title": "todo 1"
+        },
+        {
+          "uuid": 2,
+          "title": "todo2"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "tester",
+      "username": "tester",
+      "email": "tester@gmail.com",
+      "phone": "11111",
+      "todolist": [
+        {
+          "uuid": 1,
+          "title": "todo 1"
+        },
+        {
+          "uuid": 2,
+          "title": "todo2"
+        }
+      ],
+      "id": 8
+    }
+  ]
+}

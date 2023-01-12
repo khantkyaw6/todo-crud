@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import Home from "./components/Home";
+import Details from "./components/Detail";
+import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import Create from "./components/Create";
+import Edit from "./components/Edit";
+import NotFound from "./components/NotFound";
+import EditTodoPage from "./components/EditTodoPage";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path='/'>
+          <Home />
+        </Route>
+        <Route exact path='/todo-user/:id'>
+          <Details />
+        </Route>
+        <Route exact path='/create'>
+          <Create />
+        </Route>
+        <Route exact path='/todo-user/:id/edit'>
+          <Edit />
+        </Route>
+        <Route exact path='/todo-user/:id/edit/todo-edit'>
+          <EditTodoPage />
+        </Route>
+        <Route path='*'>
+          <NotFound />
+        </Route>
+      </Switch>
+    </Router>
   );
-}
+};
 
 export default App;
